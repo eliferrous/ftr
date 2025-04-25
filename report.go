@@ -4,12 +4,6 @@ import (
 	"context"
 )
 
-type Hop struct {
-	Host string
-	Avg  float64
-	Loss float64
-}
-
 type Report struct {
 	Target string
 	Hops   []Hop

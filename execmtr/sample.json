@@ -1,0 +1,110 @@
+{
+    "report": {
+        "mtr": {
+            "src": "delta",
+            "dst": "8.8.8.8",
+            "tos": 0,
+            "tests": 1,
+            "psize": "64",
+            "bitpattern": "0x00"
+        },
+        "hubs": [
+            {
+                "count": 1,
+                "host": "garth (192.168.1.1)",
+                "ASN": "AS???",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 10.755,
+                "Avg": 10.755,
+                "Best": 10.755,
+                "Wrst": 10.755,
+                "StDev": 0.0
+            },
+            {
+                "count": 2,
+                "host": "lo0-100.PHLAPA-VFTTP-420.verizon-gni.net (66.69.66.69)",
+                "ASN": "AS701",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 54.484,
+                "Avg": 54.484,
+                "Best": 54.484,
+                "Wrst": 54.484,
+                "StDev": 0.0
+            },
+            {
+                "count": 3,
+                "host": "B3319.PHLAPA-LCR-21.verizon-gni.net (130.81.168.218)",
+                "ASN": "AS701",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 5.837,
+                "Avg": 5.837,
+                "Best": 5.837,
+                "Wrst": 5.837,
+                "StDev": 0.0
+            },
+            {
+                "count": 4,
+                "host": "???",
+                "ASN": "AS???",
+                "Loss%": 100.0,
+                "Snt": 1,
+                "Last": 0.0,
+                "Avg": 0.0,
+                "Best": 0.0,
+                "Wrst": 0.0,
+                "StDev": 0.0
+            },
+            {
+                "count": 5,
+                "host": "74.125.48.132",
+                "ASN": "AS15169",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 10.968,
+                "Avg": 10.968,
+                "Best": 10.968,
+                "Wrst": 10.968,
+                "StDev": 0.0
+            },
+            {
+                "count": 6,
+                "host": "142.251.249.127",
+                "ASN": "AS15169",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 9.125,
+                "Avg": 9.125,
+                "Best": 9.125,
+                "Wrst": 9.125,
+                "StDev": 0.0
+            },
+            {
+                "count": 7,
+                "host": "216.239.40.187",
+                "ASN": "AS15169",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 8.865,
+                "Avg": 8.865,
+                "Best": 8.865,
+                "Wrst": 8.865,
+                "StDev": 0.0
+            },
+            {
+                "count": 8,
+                "host": "dns.google (8.8.8.8)",
+                "ASN": "AS15169",
+                "Loss%": 0.0,
+                "Snt": 1,
+                "Last": 8.512,
+                "Avg": 8.512,
+                "Best": 8.512,
+                "Wrst": 8.512,
+                "StDev": 0.0
+            }
+        ]
+    }
+}
