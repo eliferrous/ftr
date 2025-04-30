@@ -20,6 +20,6 @@ func NewMTRRunner() Runner {
 }
 
 func (m *mtrRunner) Run(ctx context.Context, target string, count int) (*Report, error) {
-	// Implementation of the Run method
+	//
 	return &Report{Target: target, Hops: []Hop{}}, nil
 }
